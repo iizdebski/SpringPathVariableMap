@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PathVariableWithMapAnnotationWebApp:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/PathVariableWithMapAnnotationWebApp_war</output-path>
+    <root id="archive" name="PathVariableWithMapAnnotationWebApp_war.war">
+      <element id="artifact" artifact-name="PathVariableWithMapAnnotationWebApp:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Installations/apache-tomcat-9.0.14/apache-tomcat-9.0.14/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Installations/apache-tomcat-9.0.14/apache-tomcat-9.0.14/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" />
+        </element>
+        <element id="directory" name="src">
+          <element id="dir-copy" path="$PROJECT_DIR$/src" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
